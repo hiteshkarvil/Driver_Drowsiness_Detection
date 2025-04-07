@@ -26,6 +26,18 @@ A real-time Driver Drowsiness Detection system built using Python, OpenCV, dlib,
 git clone https://github.com/your-username/driver-drowsiness-detection.git
 cd driver-drowsiness-detection
 
+2. Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+USAGE
+Run the detection script
+python drowsiness_detection.py
+
+
 driver-drowsiness-detection/
 │
 ├── shape_predictor_68_face_landmarks.dat  # dlib’s pretrained facial landmark model
